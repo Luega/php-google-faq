@@ -84,8 +84,8 @@ $faqs = [
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
-        <div class="container-fluid p-3 border-bottom d-flex flex-column justify-content-between">
+    <header class="header pt-3 px-3 border-bottom">
+        <div class="container-fluid d-flex flex-column justify-content-between">
             <!-- TOP -->
             <div class="row px-3 justify-content-between">
                 <div class="col d-flex align-items-center">
@@ -102,19 +102,19 @@ $faqs = [
                 <div class="col">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Introduzione</a>
+                            <a class="nav-link link-secondary" href="#">Introduzione</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Norme sulla privacy</a>
+                            <a class="nav-link link-secondary" href="#">Norme sulla privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Termini di servizio</a>
+                            <a class="nav-link link-secondary" href="#">Termini di servizio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tecnologie</a>
+                            <a class="nav-link link-secondary" href="#">Tecnologie</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Domande frequenti</a>
+                            <a class="nav-link link-secondary" href="#">Domande frequenti</a>
                         </li>
                     </ul>
                 </div>
@@ -122,7 +122,7 @@ $faqs = [
         </div>
     </header>
     <!-- MAIN -->
-    <main class="main">
+    <main class="main p-3">
         <div class="container-fluid d-flex flex-column">
             <div class="row w-75 m-auto d-flex flex-colum">
                 <div class="col">
@@ -139,11 +139,24 @@ $faqs = [
         </div>
     </main>
     <!-- FOOTER -->
-    <footer>
+    <footer class="footer p-3">
         <div class="container-fluid d-flex">
             <div class="row w-75 m-auto d-flex">
-                <div class="col">ciao</div>
-                <div class="col text-end">cioa</div>
+                <div class="col d-flex">
+                    <a class="link-secondary me-2 text-decoration-none" href="#">Google</a>
+                    <a class="link-secondary me-2 text-decoration-none" href="#">Tutto su Google</a>
+                    <a class="link-secondary me-2 text-decoration-none" href="#">Privacy</a>
+                    <a class="link-secondary me-2 text-decoration-none" href="#">Termini</a>
+                </div>
+                <div class="col text-end">
+                    <label for="lingue"><i class="fas fa-globe"></i></label>
+                    <select name="lingue" id="lingue">
+                        <option value="Italiano">Italiano</option>
+                        <option value="Francese">Francese</option>
+                        <option value="Tedesco">Tedesco</option>
+                        <option value="Inglese">Inglese</option>
+                    </select>
+                </div>
             </div>
         </div>
     </footer>

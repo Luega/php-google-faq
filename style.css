@@ -7,6 +7,11 @@
 html {
     font-size:  100%;
 }
-/* Header */
-/* Main */
-/* Footer */
+/* variables */
+:root {
+    --footer-bg-color: #F5F5F5;
+  }
+/* footer */
+.footer {
+    background-color: var(--footer-bg-color);
+}
