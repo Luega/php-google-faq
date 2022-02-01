@@ -14,6 +14,43 @@
     <title>Google FAQ</title>
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container-fluid p-3 border-bottom d-flex flex-column">
+            <!-- TOP -->
+            <div class="row px-3 justify-content-between">
+                <div class="col d-flex align-items-center">
+                    <img src="./img/logo_google.png" alt="logo Google" width="80" height="auto">
+                    <span class="fs-5 ms-1">Privacy e termini</span>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center">
+                    <a href="#"><i class="fas fa-grip-horizontal fs-3"></i></a>
+                    <img class="rounded-circle ms-4" src="./img/Rubber_Duck.jpg" alt="user´s image" width="30" height="30">
+                </div>
+            </div>
+            <!-- BOTTOM -->
+            <div class="row">
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Introduzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Norme sulla privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Termini di servizio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tecnologie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Domande frequenti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
